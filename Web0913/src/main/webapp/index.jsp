@@ -18,7 +18,7 @@
 			<input type="submit" name ="submit" value="로그인"/>			
 		</form>
 		<div id="button">
-			<a href="memberRegister.jsp">회원가입</a> <a href="">ID 찾기</a> <a href="">패스워드 찾기</a>
+			<a href="memberRegister.jsp">회원가입</a> <a href="findId.jsp">ID 찾기</a> <a href="findPwd.jsp">패스워드 찾기</a>
 		</div>
 	</div>
 	</body>
