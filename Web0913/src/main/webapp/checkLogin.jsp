@@ -5,7 +5,7 @@
 <%
 		String  jdbcDriver = "com.mysql.jdbc.Driver";
 		//여기 바꿔줘야함
-		String dbUr1 = "jdbc:mysql://http://http://61.83.118.50:9090//db01?useSSL=false"; 
+		String dbUr1 = "jdbc:mysql://61.83.118.50:9090/db01?useSSL=false"; 
 		String username = "root1";
 		String password = "1234";
 		
