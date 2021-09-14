@@ -19,7 +19,8 @@
 	<%
 	String  jdbcDriver = "com.mysql.jdbc.Driver";
 	//여기 바꿔줘야함
-	String dbUr1 = "jdbc:mysql://http://61.83.118.50:9090//db01?useSSL=false";
+	//?useSSL => mysql 5.5버전 이후로 ssl접속을 기본으로 세팅해놓아서 ssl 처리를 안하면 에러가 발생함(ssl 사용값이 true이므로)
+	String dbUr1 = "jdbc:mysql://61.83.118.50:9090/db01?useSSL=false"; 
 	String username = "root1";
 	String password = "1234";
 	
